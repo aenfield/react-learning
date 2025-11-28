@@ -1,8 +1,9 @@
 const palindromes = require(`./palindromes`);
 
 describe(`palindromes()`, () => {
-    it(`correctly identifies one-word palindromes`, () => {
-        expect(palindromes('madam')).toEqual([`madam`]);
-        expect(palindromes('racecar')).toEqual([`racecar`]);
-    });
+  it(`correctly identifies one-word palindromes`, () => {
+    expect(palindromes("madam")).toEqual([`madam`]);
+    expect(palindromes("racecar")).toEqual([`racecar`]);
+    expect(palindromes("fooboof")).toEqual(["fooboof"]);
+  });
 });
