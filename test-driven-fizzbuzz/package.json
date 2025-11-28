@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint . && prettier --list-different .",
+    "format": "eslint --fix . && prettier --log-level warn --write ."
   },
   "keywords": [],
   "author": "",
