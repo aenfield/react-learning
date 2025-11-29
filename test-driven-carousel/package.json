@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "lint": "eslint . && prettier --list-different .",
+    "format": "eslint --fix . && prettier --loglevel warn --write .",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "jest"
