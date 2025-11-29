@@ -9,7 +9,7 @@
     "format": "eslint --fix . && prettier --loglevel warn --write .",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "jest"
+    "test": "vitest"
   },
   "dependencies": {
     "react": "^18.2.0",
